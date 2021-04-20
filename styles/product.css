@@ -1,0 +1,223 @@
+/*product css*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-nav{
+    background-color:black;
+    display: flex;
+    padding: 5px;
+    /* position:fixed; */
+    
+}
+.main-nav-left{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-logosection{
+    flex:0.4;
+}
+.main-nav-details{
+    flex:0.6;
+    display: flex;
+}
+.main-nav-content{
+	padding-left:30px 0px;
+	margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.main-nav-content h1
+{
+	color: #02F0FF;
+	font-size:22px;
+	padding:10px 0px;
+	margin:0;
+}
+
+.main-nav-logo-image{
+    height: 67px;
+    /* object-fit:contain; */
+    padding: 20px;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.main-nav-button-call{
+    padding: 13px;
+    border-radius: 99px;
+    background-color: #007E86;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+	color:white;
+}
+
+.main-nav-button-mail{
+    padding: 15px;
+    padding-right: 20px;
+    border-radius: 99px;
+    background: #02DAE8;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+
+
+/*--------------------------------------------- main section ---------------------------*/
+.mainsection{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+
+/*-------------------------------------------------- top navabr ------------------------------------------ */
+
+.search-button{
+  border-radius:99px;height: 20px;
+width: 34px;border:0;
+color:#ef4f4f;
+transition: all 500ms;
+cursor: pointer;
+}
+.search-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.input-field{
+  padding:5px;
+  border-radius:5px;
+  border:0;
+}
+
+.navbar
+{
+	background:	#005257;
+
+}
+
+
+
+.products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+  padding-top: 20px;
+  background:#F2F2F2;
+  
+}
+
+.product-title
+{
+	margin-top:10px;
+	color:#28abb9;
+	 font-weight:300;
+	 padding-bottom:10px;
+	 width:220px;
+	 font-size:40px;
+	 text-shadow: 2px 2px 4px #000000;
+	 text-align:center;
+}
+.product-btn
+{
+	align-self:center;
+	background: #02A6B0;
+	outline-style:none;
+	outline-color:#02A6B0;
+	color:white;
+	
+}
+
+/*=============================================== item ======================================*/
+.items
+{
+margin:20px;
+
+background: #FFFFFF;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.itmes-img
+{
+
+width: 90px;
+height: 138px;
+}
+.itmes-title
+{
+	margin:10px;
+	text-align:center;
+}
+
+/*=============================================== footer =====================================================*/
+
+.footer{
+  background-color: black;
+  color:9FF9FF;
+}
+.footer-input{
+  min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-button{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 99px;
+  background-color: #1f6f8b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  transition: all 200ms;
+  
+}
+.textarea
+{
+	 min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-link{
+  color:white;
+  font-size:20px;
+  transition: all 200ms;
+}
+.footer-link:hover{
+  color:#00af91;
+  cursor: pointer;
+}
+.footer a
+{
+	color:white;
+}

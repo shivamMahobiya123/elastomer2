@@ -1,0 +1,293 @@
+/*index css*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.crousel_product
+{
+ display: flex;
+    padding: 5px;
+    /* position:fixed; */
+    width: 100%;
+}
+
+.main-nav{
+    background-color:black;
+    display: flex;
+    padding: 5px;
+    /* position:fixed; */
+    
+}
+.main-nav-left{
+    flex: 0.6;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-logosection{
+    flex:0.4;
+}
+.main-nav-details{
+    flex:0.6;
+    display: flex;
+}
+.main-nav-content{
+	padding-left:30px 0px;
+	margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.main-nav-content h1
+{
+	color: #02F0FF;
+	font-size:22px;
+	padding:10px 0px;
+	margin:0;
+}
+
+.main-nav-logo-image{
+    height: 67px;
+    /* object-fit:contain; */
+    padding: 20px;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.main-nav-button-call{
+    padding: 13px;
+    border-radius: 99px;
+    background-color: #007E86;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+	color:white;
+}
+
+.main-nav-button-mail{
+    padding: 15px;
+    padding-right: 20px;
+    border-radius: 99px;
+    background: #02DAE8;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+}
+/*--------------------------------------------- main section ---------------------------*/
+.mainsection{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+
+/*-------------------------------------------------- top navabr ------------------------------------------ */
+
+.search-button{
+  border-radius:99px;height: 20px;
+width: 34px;border:0;
+color:#ef4f4f;
+transition: all 500ms;
+cursor: pointer;
+}
+.search-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.input-field{
+  padding:5px;
+  border-radius:5px;
+  border:0;
+}
+
+.navbar
+{
+	background:	#005257;
+
+}
+
+/*------------------------------------About----------------------------------------------------------*/
+.about
+{
+	background-color: #005257;
+	color:white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	
+	
+}
+.about h1
+{
+padding-top: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 59px;
+}
+.about hr
+{
+	border:1px solid white;
+	width:620px;
+	height:0px;
+	margin-left: 383px;
+	margin-right: 383px;
+}
+.about-content
+{
+	padding:20px;
+	margin-left:30px;
+	margin-right:30px;
+	text-align:center;
+}
+
+/*-----------------------Service Items---------------------*/
+.service
+{
+	padding:30px;
+}
+.service .circle
+{
+	width: 50px;
+	height: 50px;
+	border-radius:50%;
+	background: conic-gradient(from 180deg at 50% 50%, #02F0FF 0deg, #00939C 3.75deg, #02F0FF 360deg);
+}
+
+.service-item h3
+{
+font-weight: bold;
+font-size: 30px;
+
+
+}
+.service-item p
+{
+	font-size: 20px;
+}
+
+
+
+/*=============================================== item ======================================*/
+
+.items
+{
+margin:20px;
+background: #FFFFFF;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.itmes-img
+{
+
+width: 90px;
+height: 138px;
+}
+.itmes-title
+{
+	margin:10px;
+	text-align:center;
+}
+/*=============================================== contactus =====================================================*/
+.contactus
+{
+	background: #002527;
+
+}
+.contactus .row
+{
+padding:30px;
+margin:20px;
+}
+
+.contactus .inputname
+{
+padding:30px;
+border-radius:10px;
+}
+.contactus .inputmobile
+{
+padding:30px;
+border-radius:10px;
+margin-bottom:40px;
+
+}
+.contactus button
+{
+	
+	width:200px;
+	height:40px;
+	color:white;
+	align-items:center;
+	background-color: #02A6B0;
+	font-size:20px;
+}
+/*=============================================== footer =====================================================*/
+
+.footer{
+  background-color: black;
+  color:9FF9FF;
+}
+.footer-input{
+  min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-button{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 99px;
+  background-color: #1f6f8b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  transition: all 200ms;
+  
+}
+.textarea
+{
+	 min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-link{
+  color:white;
+  font-size:20px;
+  transition: all 200ms;
+}
+.footer-link:hover{
+  color:#00af91;
+  cursor: pointer;
+}
+.footer a
+{
+	color:white;
+}

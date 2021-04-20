@@ -1,0 +1,261 @@
+	/*profile css*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color:black;
+    padding: 5px;
+    /* position:fixed; */
+    
+}
+.main-nav-content{
+	padding-left:30px 0px;
+	margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid h1
+{
+	color: #02F0FF;
+	font-size:22px;
+	padding:10px;
+	margin:0;
+}
+
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+	
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.main-nav-button-call{
+	margin:10%;
+    padding:auto;
+    border-radius: 99px;
+    background-color: #007E86;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+	color:white;
+}
+
+.main-nav-button-mail{
+	margin:10%;
+    padding:auto;
+    border-radius: 99px;
+    background: #02DAE8;
+    display: flex;
+    justify-content: space-evenly;
+    align-self:center;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+}
+/*--------------------------------------------- main section ---------------------------*/
+.mainsection{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+
+/*-------------------------------------------------- top navabr ------------------------------------------ */
+
+.search-button{
+ border-radius:99px;height: 20px;
+width: 34px;border:0;
+color:#ef4f4f;
+transition: all 500ms;
+cursor: pointer;
+}
+.search-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.input-field{
+  padding:5px;
+  border-radius:5px;
+  border:0;
+}
+
+.navbar
+{
+	background:	#005257;
+
+}
+
+/*------------------------------------About----------------------------------------------------------*/
+
+/*-----------------------SECTION---------------------*/
+
+.section
+{
+	background: #007E86;
+}
+.section .rows
+{
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:40px;
+	margin-bottom:10px;
+}
+.section h1
+{
+	text-align:center;
+	color:white;
+}
+.section .innerdiv
+{
+	border-radius:10px;
+	background-color:white;
+}
+
+.section h3
+{
+	margin-top:30px;
+	margin-left:30px;
+	border-left:2px solid #00939C;
+	color:#00939C;
+}
+.section .basicinformation
+{
+	margin:70px;
+	/* Rectangle 30 */
+background: linear-gradient(180deg, #F2F2F2 0%, #FFFFFF 100%);
+border: 0.2px solid #00939C;
+box-sizing: border-box;
+border-radius: 20px;
+
+}
+.section .sendprice
+{
+	align-items:center;
+}
+.sendprice button
+{
+	text-align:center;
+	width: 250px;
+	height: 50px;
+	align-items:center;
+	align-self:center;
+	background: #FFFFFF;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 100px;
+	color: #007E86 !important;
+
+
+}
+
+.contactusbutton
+{
+	width:8rem;
+	height:2rem;
+	justify-content:center;
+	background-color: #007E86;
+	border-radius:5%;
+	color: #FFFFFF;
+
+
+}
+/*-----------------------SECTION---------------------*/
+
+
+/*=============================================== contactus =====================================================*/
+.contactus
+{
+	background: #002527;
+
+}
+.contactus .row
+{
+padding:30px;
+
+}
+
+.contactus .inputname
+{
+padding:30px;
+border-radius:10px;
+}
+.contactus .inputmobile
+{
+padding:30px;
+border-radius:10px;
+margin-bottom:40px;
+
+}
+.contactus button
+{
+	
+	width:200px;
+	height:40px;
+	color:white;
+	align-items:center;
+	background-color: #02A6B0;
+	font-size:20px;
+}
+/*=============================================== footer =====================================================*/
+
+.footer{
+  background-color: black;
+  color:9FF9FF;
+}
+.footer-input{
+  min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-button{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 99px;
+  background-color: #1f6f8b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  transition: all 200ms;
+  
+}
+.textarea
+{
+	 min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+}
+.footer-link{
+  color:white;
+  font-size:20px;
+  transition: all 200ms;
+}
+.footer-link:hover{
+  color:#00af91;
+  cursor: pointer;
+}
+.footer a
+{
+	color:white;
+}
