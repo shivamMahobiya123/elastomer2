@@ -6,21 +6,14 @@ body{
 }
 
 .main-nav{
+	
     background-color:black;
     display: flex;
     padding: 5px;
     /* position:fixed; */
     
 }
-.main-nav-left{
-    flex: 0.6;
-    display: flex;
-    align-items: center;
-}
 
-.main-nav-logosection{
-    flex:0.4;
-}
 .main-nav-details{
     flex:0.6;
     display: flex;
@@ -38,28 +31,32 @@ body{
 	padding:10px 0px;
 	margin:0;
 }
-
-.main-nav-logo-image{
-    height: 67px;
-    /* object-fit:contain; */
-    padding: 20px;
+#lookingfor
+{
+	
 }
-
-
 .has-search .form-control {
     padding-left: 2.375rem;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-left:30px;
+    border-radius: 99px;
+	
 }
 
 .has-search .form-control-feedback {
+	border-radius:99px;
     position: absolute;
     z-index: 2;
     display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
+    width: 2.50rem;
+    height:3rem;
+    line-height: 3rem;
     text-align: center;
     pointer-events: none;
     color: #aaa;
+	justify-content: space-evenly;
+    align-self:center;
 }
 
 .main-nav-button-call{
@@ -73,6 +70,7 @@ body{
     cursor: pointer;
     transition: all 200ms;
 	color:white;
+	
 }
 
 .main-nav-button-mail{
@@ -121,6 +119,9 @@ cursor: pointer;
 
 }
 
+
+
+
 /*------------------------------------About----------------------------------------------------------*/
 
 /*-----------------------SECTION---------------------*/
@@ -148,6 +149,7 @@ cursor: pointer;
 	border-radius:10px;
 	background-color:white;
 	margin-bottom:2rem;
+	padding:10px;
 }
 
 .section h3
@@ -252,17 +254,7 @@ margin-bottom:40px;
   width: 250px;
   border-radius: 10px;
 }
-.footer-button{
-	
-  padding: 10px;
-  border-radius: 99px;
-  background-color: #1f6f8b;
-  color: white;
-  border: 0;
-  cursor: pointer;
-  transition: all 200ms;
-  
-}
+
 .textarea
 {
 	align-self:center;
